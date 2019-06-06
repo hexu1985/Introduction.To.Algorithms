@@ -25,6 +25,7 @@ if __name__ == '__main__':
         else:
             print("%d is not pass primality test" % N)
 
-    test_primality2(341)
-    test_primality2(499)
+    test_primality2(341) # composite number
+    test_primality2(499) # prime number
+    test_primality2(561) # carmicheal number
 
